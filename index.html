@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
   <meta charset="UTF-8">
@@ -22,18 +22,15 @@
         Calculadora <span class="texto-azul">Simples</span>
       </h1>
 
-          <section class="parte-inferior">
-          <label class="campo-grupo">
+      <br><section class="parte-inferior">
+          <section class="campo-grupo">
             <span class="texto-medio-azul">1° valor</span>
             <input class="quantidade-input1" id="numero1" type="number" placeholder=" ">
-          </label>
-
-          <br><label class="campo-grupo">
             <span class="texto-medio-azul">2° valor</span>
             <input class="quantidade-input2" id="numero2" type="number" placeholder=" ">
-          </label>
-
-          <br><h2 class="subtitulo">
+          </section>
+            
+          <br><br><h2 class="subtitulo">
             Escolha a <span class="texto-azul">Operação</span>
           </h2>
 
@@ -43,20 +40,17 @@
             <button onclick="multiplicacao()" type="button" class="botao-form botao-adicionar">Multiplicação</button>
             <button onclick="divisao()" type="button" class="botao-form botao-adicionar">Divisão</button>
             </section>
+            <br><section class="botoes-wrapper2">
             <br><button onclick="limpar()" type="button" class="botao-form botao-limpar">Zerar</button>
         </section>
       </form>
     </section>
   
-      <div class="divisoria"></div>
-
-      <p class="carrinho__total">
-        <br> O Resultado de <span id="valor-total"></span>
-      </p>
+    <br><br><p class="carrinho__total">O Resultado de <strong class="titulo-destaque"><span id="valor-total"></span></strong></p>
     </section>
   </main>
 
-  <script src="js/app.js"></script>
+  <script src="scripts.js"></script>
 </body>
 
 </html>
