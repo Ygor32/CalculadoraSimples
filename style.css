@@ -10,7 +10,7 @@ body{
     display: grid;
     justify-content: center;
     align-items: center;
-    background-color: black;
+    background-color: gold;
 }
 
 div{
@@ -71,3 +71,4 @@ button:hover{
 .zero{
     grid-column: 1/3;
 }
+
