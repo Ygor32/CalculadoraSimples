@@ -52,6 +52,7 @@ button:hover{
 
 .black-button{
     background: #303136;
+    color: gold;
 }
 
 .blue-button{
@@ -71,5 +72,6 @@ button:hover{
 .zero{
     grid-column: 1/3;
 }
+
 
 
